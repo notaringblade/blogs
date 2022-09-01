@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^p/(.*)$ view.php?id=$1 [QSA,L]
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/x-lsphp74
+</FilesMatch> 
