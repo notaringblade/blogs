@@ -3,9 +3,9 @@ ob_start();
 session_start();
 
 $dbhost 	= "localhost";
-$dbuser 	= "blog_1";
-$dbpass 	= "";
-$dbname 	= "blog_1";
+$dbuser 	= "babu";
+$dbpass 	= "babufodo69";
+$dbname 	= "blog";
 $charset 	= "utf8";
 
 $dbcon = mysqli_connect($dbhost, $dbuser, $dbpass);
